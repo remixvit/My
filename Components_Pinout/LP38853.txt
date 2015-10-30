@@ -1,0 +1,8 @@
+ADJ 1 I
+OUT 2 O
+BIAS 3 I
+GND 4 PWR
+SS 5 O
+EN 6 I
+IN 7 I
+NC 8 IO
