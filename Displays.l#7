@@ -194,74 +194,74 @@
 <pad name="P$2" x="117" y="3" drill="3" diameter="6"/>
 <pad name="P$3" x="117" y="70" drill="3" diameter="6"/>
 <pad name="P$4" x="3" y="70" drill="3" diameter="6"/>
-<pad name="JP1_17" x="2" y="38" drill="1" diameter="1.85"/>
-<pad name="JP1_18" x="4.54" y="38" drill="1" diameter="1.85"/>
-<pad name="JP1_15" x="2" y="35.46" drill="1" diameter="1.85"/>
-<pad name="JP1_16" x="4.54" y="35.46" drill="1" diameter="1.85"/>
-<pad name="JP1_13" x="2" y="32.92" drill="1" diameter="1.85"/>
-<pad name="JP1_14" x="4.54" y="32.92" drill="1" diameter="1.85"/>
-<pad name="JP1_11" x="2" y="30.38" drill="1" diameter="1.85"/>
-<pad name="JP1_12" x="4.54" y="30.38" drill="1" diameter="1.85"/>
-<pad name="JP1_9" x="2" y="27.84" drill="1" diameter="1.85"/>
-<pad name="JP1_10" x="4.54" y="27.84" drill="1" diameter="1.85"/>
-<pad name="JP1_7" x="2" y="25.3" drill="1" diameter="1.85"/>
-<pad name="JP1_8" x="4.54" y="25.3" drill="1" diameter="1.85"/>
-<pad name="JP1_5" x="2" y="22.76" drill="1" diameter="1.85"/>
-<pad name="JP1_6" x="4.54" y="22.76" drill="1" diameter="1.85"/>
-<pad name="JP1_3" x="2" y="20.22" drill="1" diameter="1.85"/>
-<pad name="JP1_4" x="4.54" y="20.22" drill="1" diameter="1.85"/>
-<pad name="JP1_1" x="2" y="17.68" drill="1" diameter="1.85"/>
-<pad name="JP1_2" x="4.54" y="17.68" drill="1" diameter="1.85"/>
-<pad name="JP1_33" x="2" y="58.32" drill="1" diameter="1.85"/>
-<pad name="JP1_34" x="4.54" y="58.32" drill="1" diameter="1.85"/>
-<pad name="JP1_31" x="2" y="55.78" drill="1" diameter="1.85"/>
-<pad name="JP1_32" x="4.54" y="55.78" drill="1" diameter="1.85"/>
-<pad name="JP1_29" x="2" y="53.24" drill="1" diameter="1.85"/>
-<pad name="JP1_30" x="4.54" y="53.24" drill="1" diameter="1.85"/>
-<pad name="JP1_27" x="2" y="50.7" drill="1" diameter="1.85"/>
-<pad name="JP1_28" x="4.54" y="50.7" drill="1" diameter="1.85"/>
-<pad name="JP1_25" x="2" y="48.16" drill="1" diameter="1.85"/>
-<pad name="JP1_26" x="4.54" y="48.16" drill="1" diameter="1.85"/>
-<pad name="JP1_23" x="2" y="45.62" drill="1" diameter="1.85"/>
-<pad name="JP1_24" x="4.54" y="45.62" drill="1" diameter="1.85"/>
-<pad name="JP1_21" x="2" y="43.08" drill="1" diameter="1.85"/>
-<pad name="JP1_22" x="4.54" y="43.08" drill="1" diameter="1.85"/>
-<pad name="JP1_19" x="2" y="40.54" drill="1" diameter="1.85"/>
-<pad name="JP1_20" x="4.54" y="40.54" drill="1" diameter="1.85"/>
-<pad name="JP2_18" x="118" y="38" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_17" x="115.46" y="38" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_16" x="118" y="35.46" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_15" x="115.46" y="35.46" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_14" x="118" y="32.92" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_13" x="115.46" y="32.92" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_12" x="118" y="30.38" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_11" x="115.46" y="30.38" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_10" x="118" y="27.84" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_9" x="115.46" y="27.84" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_8" x="118" y="25.3" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_7" x="115.46" y="25.3" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_6" x="118" y="22.76" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_5" x="115.46" y="22.76" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_4" x="118" y="20.22" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_3" x="115.46" y="20.22" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_2" x="118" y="17.68" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_1" x="115.46" y="17.68" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_34" x="118" y="58.32" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_33" x="115.46" y="58.32" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_32" x="118" y="55.78" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_31" x="115.46" y="55.78" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_30" x="118" y="53.24" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_29" x="115.46" y="53.24" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_28" x="118" y="50.7" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_27" x="115.46" y="50.7" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_26" x="118" y="48.16" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_25" x="115.46" y="48.16" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_24" x="118" y="45.62" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_23" x="115.46" y="45.62" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_22" x="118" y="43.08" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_21" x="115.46" y="43.08" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_20" x="118" y="40.54" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_19" x="115.46" y="40.54" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$19" x="2" y="38" drill="1" diameter="1.85"/>
+<pad name="P$5" x="4.54" y="38" drill="1" diameter="1.85"/>
+<pad name="P$6" x="2" y="35.46" drill="1" diameter="1.85"/>
+<pad name="P$7" x="4.54" y="35.46" drill="1" diameter="1.85"/>
+<pad name="P$8" x="2" y="32.92" drill="1" diameter="1.85"/>
+<pad name="P$9" x="4.54" y="32.92" drill="1" diameter="1.85"/>
+<pad name="P$10" x="2" y="30.38" drill="1" diameter="1.85"/>
+<pad name="P$11" x="4.54" y="30.38" drill="1" diameter="1.85"/>
+<pad name="P$12" x="2" y="27.84" drill="1" diameter="1.85"/>
+<pad name="P$13" x="4.54" y="27.84" drill="1" diameter="1.85"/>
+<pad name="P$14" x="2" y="25.3" drill="1" diameter="1.85"/>
+<pad name="P$15" x="4.54" y="25.3" drill="1" diameter="1.85"/>
+<pad name="P$16" x="2" y="22.76" drill="1" diameter="1.85"/>
+<pad name="P$17" x="4.54" y="22.76" drill="1" diameter="1.85"/>
+<pad name="P$18" x="2" y="20.22" drill="1" diameter="1.85"/>
+<pad name="P$20" x="4.54" y="20.22" drill="1" diameter="1.85"/>
+<pad name="P$21" x="2" y="17.68" drill="1" diameter="1.85"/>
+<pad name="P$22" x="4.54" y="17.68" drill="1" diameter="1.85"/>
+<pad name="P$23" x="2" y="58.32" drill="1" diameter="1.85"/>
+<pad name="P$24" x="4.54" y="58.32" drill="1" diameter="1.85"/>
+<pad name="P$25" x="2" y="55.78" drill="1" diameter="1.85"/>
+<pad name="P$26" x="4.54" y="55.78" drill="1" diameter="1.85"/>
+<pad name="P$27" x="2" y="53.24" drill="1" diameter="1.85"/>
+<pad name="P$28" x="4.54" y="53.24" drill="1" diameter="1.85"/>
+<pad name="P$29" x="2" y="50.7" drill="1" diameter="1.85"/>
+<pad name="P$30" x="4.54" y="50.7" drill="1" diameter="1.85"/>
+<pad name="P$31" x="2" y="48.16" drill="1" diameter="1.85"/>
+<pad name="P$32" x="4.54" y="48.16" drill="1" diameter="1.85"/>
+<pad name="P$33" x="2" y="45.62" drill="1" diameter="1.85"/>
+<pad name="P$34" x="4.54" y="45.62" drill="1" diameter="1.85"/>
+<pad name="P$35" x="2" y="43.08" drill="1" diameter="1.85"/>
+<pad name="P$36" x="4.54" y="43.08" drill="1" diameter="1.85"/>
+<pad name="P$37" x="2" y="40.54" drill="1" diameter="1.85"/>
+<pad name="P$38" x="4.54" y="40.54" drill="1" diameter="1.85"/>
+<pad name="P$39" x="118" y="38" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$40" x="115.46" y="38" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$41" x="118" y="35.46" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$42" x="115.46" y="35.46" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$43" x="118" y="32.92" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$44" x="115.46" y="32.92" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$45" x="118" y="30.38" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$46" x="115.46" y="30.38" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$47" x="118" y="27.84" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$48" x="115.46" y="27.84" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$49" x="118" y="25.3" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$50" x="115.46" y="25.3" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$51" x="118" y="22.76" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$52" x="115.46" y="22.76" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$53" x="118" y="20.22" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$54" x="115.46" y="20.22" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$55" x="118" y="17.68" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$56" x="115.46" y="17.68" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$57" x="118" y="58.32" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$58" x="115.46" y="58.32" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$59" x="118" y="55.78" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$60" x="115.46" y="55.78" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$61" x="118" y="53.24" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$62" x="115.46" y="53.24" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$63" x="118" y="50.7" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$64" x="115.46" y="50.7" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$65" x="118" y="48.16" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$66" x="115.46" y="48.16" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$67" x="118" y="45.62" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$68" x="115.46" y="45.62" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$69" x="118" y="43.08" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$70" x="115.46" y="43.08" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$71" x="118" y="40.54" drill="1" diameter="1.85" rot="R180"/>
+<pad name="P$72" x="115.46" y="40.54" drill="1" diameter="1.85" rot="R180"/>
 </package>
 </packages>
 <symbols>
