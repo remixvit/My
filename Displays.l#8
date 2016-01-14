@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.2" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,19 +46,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -180,6 +180,97 @@
 <wire x1="-7.37" y1="-10.3" x2="-5.77" y2="-8.7" width="0.254" layer="21" curve="-90"/>
 <wire x1="6.63" y1="-12.7" x2="6.63" y2="-10.3" width="0.254" layer="21"/>
 <wire x1="5.03" y1="-8.7" x2="6.63" y2="-10.3" width="0.254" layer="21" curve="-90"/>
+</package>
+<package name="4.3TFT">
+<wire x1="3" y1="0" x2="117" y2="0" width="0.3" layer="21"/>
+<wire x1="120" y1="3" x2="120" y2="70" width="0.3" layer="21"/>
+<wire x1="117" y1="73" x2="3" y2="73" width="0.3" layer="21"/>
+<pad name="P$1" x="3" y="3" drill="3" diameter="6"/>
+<wire x1="0" y1="70" x2="0" y2="3" width="0.3" layer="21"/>
+<wire x1="0" y1="3" x2="3" y2="0" width="0.3" layer="21" curve="90"/>
+<wire x1="117" y1="0" x2="120" y2="3" width="0.3" layer="21" curve="90"/>
+<wire x1="120" y1="70" x2="117" y2="73" width="0.3" layer="21" curve="90"/>
+<wire x1="3" y1="73" x2="0" y2="70" width="0.3" layer="21" curve="90"/>
+<pad name="P$2" x="117" y="3" drill="3" diameter="6"/>
+<pad name="P$3" x="117" y="70" drill="3" diameter="6"/>
+<pad name="P$4" x="3" y="70" drill="3" diameter="6"/>
+<pad name="JP1_17" x="2" y="38" drill="1" diameter="1.85"/>
+<pad name="JP1_18" x="4.54" y="38" drill="1" diameter="1.85"/>
+<pad name="JP1_15" x="2" y="35.46" drill="1" diameter="1.85"/>
+<pad name="JP1_16" x="4.54" y="35.46" drill="1" diameter="1.85"/>
+<pad name="JP1_13" x="2" y="32.92" drill="1" diameter="1.85"/>
+<pad name="JP1_14" x="4.54" y="32.92" drill="1" diameter="1.85"/>
+<pad name="JP1_11" x="2" y="30.38" drill="1" diameter="1.85"/>
+<pad name="JP1_12" x="4.54" y="30.38" drill="1" diameter="1.85"/>
+<pad name="JP1_9" x="2" y="27.84" drill="1" diameter="1.85"/>
+<pad name="JP1_10" x="4.54" y="27.84" drill="1" diameter="1.85"/>
+<pad name="JP1_7" x="2" y="25.3" drill="1" diameter="1.85"/>
+<pad name="JP1_8" x="4.54" y="25.3" drill="1" diameter="1.85"/>
+<pad name="JP1_5" x="2" y="22.76" drill="1" diameter="1.85"/>
+<pad name="JP1_6" x="4.54" y="22.76" drill="1" diameter="1.85"/>
+<pad name="JP1_3" x="2" y="20.22" drill="1" diameter="1.85"/>
+<pad name="JP1_4" x="4.54" y="20.22" drill="1" diameter="1.85"/>
+<pad name="JP1_1" x="2" y="17.68" drill="1" diameter="1.85"/>
+<pad name="JP1_2" x="4.54" y="17.68" drill="1" diameter="1.85"/>
+<pad name="JP1_33" x="2" y="58.32" drill="1" diameter="1.85"/>
+<pad name="JP1_34" x="4.54" y="58.32" drill="1" diameter="1.85"/>
+<pad name="JP1_31" x="2" y="55.78" drill="1" diameter="1.85"/>
+<pad name="JP1_32" x="4.54" y="55.78" drill="1" diameter="1.85"/>
+<pad name="JP1_29" x="2" y="53.24" drill="1" diameter="1.85"/>
+<pad name="JP1_30" x="4.54" y="53.24" drill="1" diameter="1.85"/>
+<pad name="JP1_27" x="2" y="50.7" drill="1" diameter="1.85"/>
+<pad name="JP1_28" x="4.54" y="50.7" drill="1" diameter="1.85"/>
+<pad name="JP1_25" x="2" y="48.16" drill="1" diameter="1.85"/>
+<pad name="JP1_26" x="4.54" y="48.16" drill="1" diameter="1.85"/>
+<pad name="JP1_23" x="2" y="45.62" drill="1" diameter="1.85"/>
+<pad name="JP1_24" x="4.54" y="45.62" drill="1" diameter="1.85"/>
+<pad name="JP1_21" x="2" y="43.08" drill="1" diameter="1.85"/>
+<pad name="JP1_22" x="4.54" y="43.08" drill="1" diameter="1.85"/>
+<pad name="JP1_19" x="2" y="40.54" drill="1" diameter="1.85"/>
+<pad name="JP1_20" x="4.54" y="40.54" drill="1" diameter="1.85"/>
+<pad name="JP2_18" x="118" y="38" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_17" x="115.46" y="38" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_16" x="118" y="35.46" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_15" x="115.46" y="35.46" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_14" x="118" y="32.92" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_13" x="115.46" y="32.92" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_12" x="118" y="30.38" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_11" x="115.46" y="30.38" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_10" x="118" y="27.84" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_9" x="115.46" y="27.84" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_8" x="118" y="25.3" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_7" x="115.46" y="25.3" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_6" x="118" y="22.76" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_5" x="115.46" y="22.76" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_4" x="118" y="20.22" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_3" x="115.46" y="20.22" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_2" x="118" y="17.68" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_1" x="115.46" y="17.68" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_34" x="118" y="58.32" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_33" x="115.46" y="58.32" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_32" x="118" y="55.78" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_31" x="115.46" y="55.78" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_30" x="118" y="53.24" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_29" x="115.46" y="53.24" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_28" x="118" y="50.7" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_27" x="115.46" y="50.7" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_26" x="118" y="48.16" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_25" x="115.46" y="48.16" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_24" x="118" y="45.62" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_23" x="115.46" y="45.62" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_22" x="118" y="43.08" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_21" x="115.46" y="43.08" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_20" x="118" y="40.54" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_19" x="115.46" y="40.54" drill="1" diameter="1.85" rot="R180"/>
+<text x="2" y="60" size="2.54" layer="25" font="vector" ratio="15">JP1</text>
+<text x="112" y="60" size="2.54" layer="25" font="vector" ratio="15">JP2</text>
+<text x="54" y="69" size="2.54" layer="25" font="vector" ratio="15">4.3TFT</text>
+<text x="53" y="6" size="2.54" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<text x="54" y="2" size="2.54" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="5.2" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">3.3V</text>
+<text x="2.6" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">GND</text>
+<text x="116" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">GND</text>
+<text x="118.8" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">3.3V</text>
 </package>
 </packages>
 <symbols>

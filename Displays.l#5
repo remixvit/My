@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
@@ -25,7 +25,7 @@
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -67,6 +67,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="GHOST" color="11" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -185,15 +186,11 @@
 <wire x1="3" y1="0" x2="117" y2="0" width="0.3" layer="21"/>
 <wire x1="120" y1="3" x2="120" y2="70" width="0.3" layer="21"/>
 <wire x1="117" y1="73" x2="3" y2="73" width="0.3" layer="21"/>
-<pad name="P$1" x="3" y="3" drill="3" diameter="6"/>
 <wire x1="0" y1="70" x2="0" y2="3" width="0.3" layer="21"/>
 <wire x1="0" y1="3" x2="3" y2="0" width="0.3" layer="21" curve="90"/>
 <wire x1="117" y1="0" x2="120" y2="3" width="0.3" layer="21" curve="90"/>
 <wire x1="120" y1="70" x2="117" y2="73" width="0.3" layer="21" curve="90"/>
 <wire x1="3" y1="73" x2="0" y2="70" width="0.3" layer="21" curve="90"/>
-<pad name="P$2" x="117" y="3" drill="3" diameter="6"/>
-<pad name="P$3" x="117" y="70" drill="3" diameter="6"/>
-<pad name="P$4" x="3" y="70" drill="3" diameter="6"/>
 <pad name="JP1_17" x="2" y="38" drill="1" diameter="1.85"/>
 <pad name="JP1_18" x="4.54" y="38" drill="1" diameter="1.85"/>
 <pad name="JP1_15" x="2" y="35.46" drill="1" diameter="1.85"/>
@@ -262,6 +259,91 @@
 <pad name="JP2_21" x="115.46" y="43.08" drill="1" diameter="1.85" rot="R180"/>
 <pad name="JP2_20" x="118" y="40.54" drill="1" diameter="1.85" rot="R180"/>
 <pad name="JP2_19" x="115.46" y="40.54" drill="1" diameter="1.85" rot="R180"/>
+<text x="2" y="60" size="2.54" layer="25" font="vector" ratio="15">JP1</text>
+<text x="112" y="60" size="2.54" layer="25" font="vector" ratio="15">JP2</text>
+<text x="54" y="69" size="2.54" layer="25" font="vector" ratio="15">4.3TFT</text>
+<text x="53" y="6" size="2.54" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<text x="54" y="2" size="2.54" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="5.2" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">3.3V</text>
+<text x="2.6" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">GND</text>
+<text x="116" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">GND</text>
+<text x="118.8" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">3.3V</text>
+<polygon width="0.3" layer="100">
+<vertex x="3" y="6" curve="-90"/>
+<vertex x="6" y="3" curve="-90"/>
+<vertex x="3" y="0" curve="-90"/>
+<vertex x="0" y="3" curve="-90"/>
+</polygon>
+<polygon width="0.3" layer="100">
+<vertex x="117" y="6" curve="-90"/>
+<vertex x="120" y="3" curve="-90"/>
+<vertex x="117" y="0" curve="-90"/>
+<vertex x="114" y="3" curve="-90"/>
+</polygon>
+<polygon width="0.3" layer="100">
+<vertex x="117" y="73" curve="-90"/>
+<vertex x="120" y="70" curve="-90"/>
+<vertex x="117" y="67" curve="-90"/>
+<vertex x="114" y="70" curve="-90"/>
+</polygon>
+<polygon width="0.3" layer="100">
+<vertex x="3" y="73" curve="-90"/>
+<vertex x="6" y="70" curve="-90"/>
+<vertex x="3" y="67" curve="-90"/>
+<vertex x="0" y="70" curve="-90"/>
+</polygon>
+<hole x="3" y="70" drill="3"/>
+<hole x="3" y="3" drill="3"/>
+<hole x="117" y="3" drill="3"/>
+<hole x="117" y="70" drill="3"/>
+<polygon width="0.3" layer="29">
+<vertex x="3" y="6" curve="-90"/>
+<vertex x="6" y="3" curve="-90"/>
+<vertex x="3" y="0" curve="-90"/>
+<vertex x="0" y="3" curve="-90"/>
+</polygon>
+<polygon width="0.3" layer="29">
+<vertex x="117" y="6" curve="-90"/>
+<vertex x="120" y="3" curve="-90"/>
+<vertex x="117" y="0" curve="-90"/>
+<vertex x="114" y="3" curve="-90"/>
+</polygon>
+<polygon width="0.3" layer="29">
+<vertex x="117" y="73" curve="-90"/>
+<vertex x="120" y="70" curve="-90"/>
+<vertex x="117" y="67" curve="-90"/>
+<vertex x="114" y="70" curve="-90"/>
+</polygon>
+<polygon width="0.3" layer="29">
+<vertex x="3" y="73" curve="-90"/>
+<vertex x="6" y="70" curve="-90"/>
+<vertex x="3" y="67" curve="-90"/>
+<vertex x="0" y="70" curve="-90"/>
+</polygon>
+<polygon width="0.3" layer="30">
+<vertex x="117" y="73" curve="-90"/>
+<vertex x="120" y="70" curve="-90"/>
+<vertex x="117" y="67" curve="-90"/>
+<vertex x="114" y="70" curve="-90"/>
+</polygon>
+<polygon width="0.3" layer="30">
+<vertex x="3" y="73" curve="-90"/>
+<vertex x="6" y="70" curve="-90"/>
+<vertex x="3" y="67" curve="-90"/>
+<vertex x="0" y="70" curve="-90"/>
+</polygon>
+<polygon width="0.3" layer="30">
+<vertex x="117" y="6" curve="-90"/>
+<vertex x="120" y="3" curve="-90"/>
+<vertex x="117" y="0" curve="-90"/>
+<vertex x="114" y="3" curve="-90"/>
+</polygon>
+<polygon width="0.3" layer="30">
+<vertex x="3" y="6" curve="-90"/>
+<vertex x="6" y="3" curve="-90"/>
+<vertex x="3" y="0" curve="-90"/>
+<vertex x="0" y="3" curve="-90"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -548,6 +630,89 @@
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="RES" pad="RESET"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4.3&quot;TFT">
+<gates>
+<gate name="TFT_JP1" symbol="4.3TFT-LCD" x="0" y="30.48"/>
+<gate name="TFT_JP2" symbol="4.3TFT-LCD" x="0" y="-27.94"/>
+</gates>
+<devices>
+<device name="" package="4.3TFT">
+<connects>
+<connect gate="TFT_JP1" pin="P$1" pad="JP1_1"/>
+<connect gate="TFT_JP1" pin="P$10" pad="JP1_10"/>
+<connect gate="TFT_JP1" pin="P$11" pad="JP1_11"/>
+<connect gate="TFT_JP1" pin="P$12" pad="JP1_12"/>
+<connect gate="TFT_JP1" pin="P$13" pad="JP1_13"/>
+<connect gate="TFT_JP1" pin="P$14" pad="JP1_14"/>
+<connect gate="TFT_JP1" pin="P$15" pad="JP1_15"/>
+<connect gate="TFT_JP1" pin="P$16" pad="JP1_16"/>
+<connect gate="TFT_JP1" pin="P$17" pad="JP1_17"/>
+<connect gate="TFT_JP1" pin="P$18" pad="JP1_18"/>
+<connect gate="TFT_JP1" pin="P$19" pad="JP1_19"/>
+<connect gate="TFT_JP1" pin="P$2" pad="JP1_2"/>
+<connect gate="TFT_JP1" pin="P$20" pad="JP1_20"/>
+<connect gate="TFT_JP1" pin="P$21" pad="JP1_21"/>
+<connect gate="TFT_JP1" pin="P$22" pad="JP1_22"/>
+<connect gate="TFT_JP1" pin="P$23" pad="JP1_23"/>
+<connect gate="TFT_JP1" pin="P$24" pad="JP1_24"/>
+<connect gate="TFT_JP1" pin="P$25" pad="JP1_25"/>
+<connect gate="TFT_JP1" pin="P$26" pad="JP1_26"/>
+<connect gate="TFT_JP1" pin="P$27" pad="JP1_27"/>
+<connect gate="TFT_JP1" pin="P$28" pad="JP1_28"/>
+<connect gate="TFT_JP1" pin="P$29" pad="JP1_29"/>
+<connect gate="TFT_JP1" pin="P$3" pad="JP1_3"/>
+<connect gate="TFT_JP1" pin="P$30" pad="JP1_30"/>
+<connect gate="TFT_JP1" pin="P$31" pad="JP1_31"/>
+<connect gate="TFT_JP1" pin="P$32" pad="JP1_32"/>
+<connect gate="TFT_JP1" pin="P$33" pad="JP1_33"/>
+<connect gate="TFT_JP1" pin="P$34" pad="JP1_34"/>
+<connect gate="TFT_JP1" pin="P$4" pad="JP1_4"/>
+<connect gate="TFT_JP1" pin="P$5" pad="JP1_5"/>
+<connect gate="TFT_JP1" pin="P$6" pad="JP1_6"/>
+<connect gate="TFT_JP1" pin="P$7" pad="JP1_7"/>
+<connect gate="TFT_JP1" pin="P$8" pad="JP1_8"/>
+<connect gate="TFT_JP1" pin="P$9" pad="JP1_9"/>
+<connect gate="TFT_JP2" pin="P$1" pad="JP2_1"/>
+<connect gate="TFT_JP2" pin="P$10" pad="JP2_10"/>
+<connect gate="TFT_JP2" pin="P$11" pad="JP2_11"/>
+<connect gate="TFT_JP2" pin="P$12" pad="JP2_12"/>
+<connect gate="TFT_JP2" pin="P$13" pad="JP2_13"/>
+<connect gate="TFT_JP2" pin="P$14" pad="JP2_14"/>
+<connect gate="TFT_JP2" pin="P$15" pad="JP2_15"/>
+<connect gate="TFT_JP2" pin="P$16" pad="JP2_16"/>
+<connect gate="TFT_JP2" pin="P$17" pad="JP2_17"/>
+<connect gate="TFT_JP2" pin="P$18" pad="JP2_18"/>
+<connect gate="TFT_JP2" pin="P$19" pad="JP2_19"/>
+<connect gate="TFT_JP2" pin="P$2" pad="JP2_2"/>
+<connect gate="TFT_JP2" pin="P$20" pad="JP2_20"/>
+<connect gate="TFT_JP2" pin="P$21" pad="JP2_21"/>
+<connect gate="TFT_JP2" pin="P$22" pad="JP2_22"/>
+<connect gate="TFT_JP2" pin="P$23" pad="JP2_23"/>
+<connect gate="TFT_JP2" pin="P$24" pad="JP2_24"/>
+<connect gate="TFT_JP2" pin="P$25" pad="JP2_25"/>
+<connect gate="TFT_JP2" pin="P$26" pad="JP2_26"/>
+<connect gate="TFT_JP2" pin="P$27" pad="JP2_27"/>
+<connect gate="TFT_JP2" pin="P$28" pad="JP2_28"/>
+<connect gate="TFT_JP2" pin="P$29" pad="JP2_29"/>
+<connect gate="TFT_JP2" pin="P$3" pad="JP2_3"/>
+<connect gate="TFT_JP2" pin="P$30" pad="JP2_30"/>
+<connect gate="TFT_JP2" pin="P$31" pad="JP2_31"/>
+<connect gate="TFT_JP2" pin="P$32" pad="JP2_32"/>
+<connect gate="TFT_JP2" pin="P$33" pad="JP2_33"/>
+<connect gate="TFT_JP2" pin="P$34" pad="JP2_34"/>
+<connect gate="TFT_JP2" pin="P$4" pad="JP2_4"/>
+<connect gate="TFT_JP2" pin="P$5" pad="JP2_5"/>
+<connect gate="TFT_JP2" pin="P$6" pad="JP2_6"/>
+<connect gate="TFT_JP2" pin="P$7" pad="JP2_7"/>
+<connect gate="TFT_JP2" pin="P$8" pad="JP2_8"/>
+<connect gate="TFT_JP2" pin="P$9" pad="JP2_9"/>
 </connects>
 <technologies>
 <technology name=""/>
