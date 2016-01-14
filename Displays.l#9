@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.2" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -262,6 +262,15 @@
 <pad name="JP2_21" x="115.46" y="43.08" drill="1" diameter="1.85" rot="R180"/>
 <pad name="JP2_20" x="118" y="40.54" drill="1" diameter="1.85" rot="R180"/>
 <pad name="JP2_19" x="115.46" y="40.54" drill="1" diameter="1.85" rot="R180"/>
+<text x="2" y="60" size="2.54" layer="25" font="vector" ratio="15">JP1</text>
+<text x="112" y="60" size="2.54" layer="25" font="vector" ratio="15">JP2</text>
+<text x="54" y="69" size="2.54" layer="25" font="vector" ratio="15">4.3TFT</text>
+<text x="53" y="6" size="2.54" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<text x="54" y="2" size="2.54" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="5.2" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">3.3V</text>
+<text x="2.6" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">GND</text>
+<text x="116" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">GND</text>
+<text x="118.8" y="12.2" size="1.27" layer="25" font="vector" ratio="15" rot="R90">3.3V</text>
 </package>
 </packages>
 <symbols>
