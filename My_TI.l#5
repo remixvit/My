@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1538,6 +1538,40 @@ Source: www.ti.com ... TPS40055 package.pdf &amp; slma002.pdf</description>
 <wire x1="-1.5" y1="-1" x2="-1" y2="-1.5" width="0.127" layer="21"/>
 <text x="-2" y="-1.5" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">&gt;NAME</text>
 <text x="2.5" y="-1.5" size="0.8128" layer="27" font="vector" ratio="15" rot="R90">&gt;VALUE</text>
+</package>
+<package name="VQFN-14_PWR">
+<smd name="4" x="0" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="3" x="-0.5" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="5" x="0.5" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="2" x="-1" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="6" x="1" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="9" x="1" y="1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="10" x="0.5" y="1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="11" x="0" y="1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="12" x="-0.5" y="1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="13" x="-1" y="1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="EPAD_BIG" x="0" y="0" dx="2.05" dy="2.05" layer="1"/>
+<smd name="14" x="-1.725" y="0.75" dx="0.28" dy="0.85" layer="1" rot="R270"/>
+<smd name="1" x="-1.725" y="-0.75" dx="0.28" dy="0.85" layer="1" rot="R270"/>
+<smd name="8" x="1.725" y="0.75" dx="0.28" dy="0.85" layer="1" rot="R270"/>
+<smd name="7" x="1.725" y="-0.75" dx="0.28" dy="0.85" layer="1" rot="R270"/>
+<smd name="EPAD_M2" x="-1.7875" y="-0.275" dx="0.2" dy="0.725" layer="1" rot="R90"/>
+<smd name="EPAD_M1" x="-1.7875" y="0.275" dx="0.2" dy="0.725" layer="1" rot="R90"/>
+<smd name="EPAD_M4" x="1.7875" y="0.275" dx="0.2" dy="0.725" layer="1" rot="R90"/>
+<smd name="EPAD_M3" x="1.7875" y="-0.275" dx="0.2" dy="0.725" layer="1" rot="R90"/>
+<rectangle x1="-1.5" y1="-0.375" x2="-0.75" y2="0.375" layer="1"/>
+<rectangle x1="0.75" y1="-0.375" x2="1.5" y2="0.375" layer="1"/>
+<wire x1="0" y1="1.825" x2="-1.825" y2="1.825" width="0.127" layer="21"/>
+<wire x1="-1.825" y1="1.825" x2="-1.825" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.825" y1="0" x2="-1.825" y2="-1.825" width="0.127" layer="21"/>
+<wire x1="-1.825" y1="-1.825" x2="0" y2="-1.825" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.825" x2="1.825" y2="-1.825" width="0.127" layer="21"/>
+<wire x1="1.825" y1="-1.825" x2="1.825" y2="0" width="0.127" layer="21"/>
+<wire x1="1.825" y1="0" x2="1.825" y2="1.825" width="0.127" layer="21"/>
+<wire x1="1.825" y1="1.825" x2="0" y2="1.825" width="0.127" layer="21"/>
+<circle x="-2.8" y="-1.4" radius="0.095521875" width="0.6096" layer="21"/>
+<text x="-1.8" y="2.4" size="0.8128" layer="21" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.8" y="3.4" size="0.8128" layer="21" font="vector" ratio="15">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

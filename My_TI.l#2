@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2759,14 +2759,14 @@ Source: www.ti.com ... TPS40055 package.pdf &amp; slma002.pdf</description>
 <pin name="5" x="-10.16" y="-10.16" visible="off" length="short"/>
 <pin name="6" x="-10.16" y="-15.24" visible="off" length="short"/>
 <pin name="7" x="10.16" y="-15.24" visible="off" length="short" rot="R180"/>
-<pin name="8" x="10.16" y="-5.08" visible="off" length="short" rot="R180"/>
-<pin name="9" x="10.16" y="0" visible="off" length="short" rot="R180"/>
-<pin name="10" x="10.16" y="10.16" visible="off" length="short" rot="R180"/>
+<pin name="9" x="10.16" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="10" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<pin name="11" x="10.16" y="10.16" visible="off" length="short" rot="R180"/>
 <wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-17.78" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<text x="-7.112" y="9.398" size="1.27" layer="94" font="vector" ratio="15">VIN</text>
+<text x="4.318" y="-10.922" size="1.27" layer="94" font="vector" ratio="15">VIN</text>
 <text x="-7.112" y="4.318" size="1.27" layer="94" font="vector" ratio="15">EN</text>
 <text x="-7.112" y="-0.762" size="1.27" layer="94" font="vector" ratio="15">PGOOD</text>
 <text x="-7.112" y="-5.842" size="1.27" layer="94" font="vector" ratio="15">RT</text>
@@ -2778,6 +2778,8 @@ Source: www.ti.com ... TPS40055 package.pdf &amp; slma002.pdf</description>
 <text x="2.794" y="9.398" size="1.27" layer="94" font="vector" ratio="15">BOOT</text>
 <text x="-7.62" y="13.208" size="1.27" layer="94" font="vector" ratio="15">&gt;NAME</text>
 <text x="-7.62" y="15.24" size="1.27" layer="94" font="vector" ratio="15">&gt;VALUE</text>
+<pin name="8" x="10.16" y="-10.16" visible="off" length="short" rot="R180"/>
+<text x="-7.112" y="9.398" size="1.27" layer="94" font="vector" ratio="15">PVIN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4010,12 +4012,30 @@ Fixed 1-MHz Switching Frequency.&lt;p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS54622">
+<deviceset name="TPS54622" prefix="DC/DC" uservalue="yes">
+<description>&lt;b&gt;TPS54622 &lt;/b&gt;4.5-V to 17-V Input, 6-A Synchronous Step-Down SWIFT™ Converter With Hiccup Protection.&lt;p&gt;
+• 200-kHz to 1.6-MHz Switching Frequency.&lt;p&gt;
+• –40°C to 150°C Operating Junction Temperature Range.&lt;p&gt;
+• Adjustable Slow Start and Power Sequencing.&lt;p&gt;
+&lt;a href="http://www.ti.com/lit/ds/symlink/tps54622.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="TPS54622" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="VQFN-14_PWR">
+<connects>
+<connect gate="G$1" pin="1" pad="4 5"/>
+<connect gate="G$1" pin="10" pad="11 12"/>
+<connect gate="G$1" pin="11" pad="13"/>
+<connect gate="G$1" pin="2" pad="10"/>
+<connect gate="G$1" pin="3" pad="14"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="9"/>
+<connect gate="G$1" pin="6" pad="8"/>
+<connect gate="G$1" pin="7" pad="2 3 EPAD_BIG EPAD_M1 EPAD_M2 EPAD_M3 EPAD_M4"/>
+<connect gate="G$1" pin="8" pad="6"/>
+<connect gate="G$1" pin="9" pad="7"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
