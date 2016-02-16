@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
+<<<<<<< HEAD
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+=======
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+>>>>>>> 3ae09cc304db548bbdf653cd577159e84577e8fb
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1573,6 +1577,47 @@ Source: www.ti.com ... TPS40055 package.pdf &amp; slma002.pdf</description>
 <text x="-1.8" y="2.4" size="0.8128" layer="21" font="vector" ratio="15">&gt;NAME</text>
 <text x="-1.8" y="3.4" size="0.8128" layer="21" font="vector" ratio="15">&gt;VALUE</text>
 </package>
+<package name="VSON12">
+<smd name="3" x="-0.2" y="-1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="1" x="-1" y="-1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="2" x="-0.6" y="-1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="4" x="0.2" y="-1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="5" x="0.6" y="-1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="6" x="1" y="-1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="7" x="1" y="1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="8" x="0.6" y="1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="9" x="0.2" y="1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="10" x="-0.2" y="1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="11" x="-0.6" y="1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="12" x="-1" y="1.975" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="EPAD_BIG" x="0" y="0" dx="1.95" dy="2.45" layer="1"/>
+<pad name="EPAD_VIA" x="0" y="0" drill="0.4"/>
+<smd name="EPAD_M1" x="-1.3125" y="1.1" dx="0.675" dy="0.25" layer="1"/>
+<smd name="EPAD_M2" x="-1.3125" y="-1.1" dx="0.675" dy="0.25" layer="1"/>
+<smd name="EPAD_M4" x="1.3125" y="1.1" dx="0.675" dy="0.25" layer="1"/>
+<smd name="EPAD_M3" x="1.3125" y="-1.1" dx="0.675" dy="0.25" layer="1"/>
+<wire x1="-1.25" y1="-2" x2="1.25" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="2" x2="1.25" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="2" x2="-1.25" y2="-2" width="0.127" layer="21"/>
+<wire x1="1.25" y1="2" x2="1.25" y2="-2" width="0.127" layer="21"/>
+<circle x="-2.1" y="-2" radius="0.22360625" width="0.127" layer="21"/>
+<circle x="-2.1" y="-2" radius="0.1" width="0.127" layer="21"/>
+<circle x="-2.1" y="-2" radius="0.05" width="0.127" layer="21"/>
+<text x="-2" y="-1.2" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">&gt;NAME</text>
+<text x="2.8" y="-1.2" size="0.8128" layer="27" font="vector" ratio="15" rot="R90">&gt;VALUE</text>
+</package>
+<package name="VQFN9">
+<smd name="5" x="-0.25" y="-1.15" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="6" x="0.25" y="-1.15" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="4" x="-0.75" y="-1.15" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="7" x="0.75" y="-1.15" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="3" x="-1.15" y="-0.475" dx="0.6" dy="0.25" layer="1"/>
+<smd name="8" x="1.15" y="-0.475" dx="0.6" dy="0.25" layer="1"/>
+<smd name="P$7" x="0" y="0.17" dx="2.9" dy="0.3" layer="1"/>
+<smd name="1.2" x="0" y="-0.065" dx="0.975" dy="0.15" layer="1"/>
+<smd name="1.1" x="-0.9" y="0.77" dx="1.1" dy="0.3" layer="1"/>
+<smd name="9" x="0.725" y="0.77" dx="1.45" dy="0.3" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MSP30F2013">
@@ -2780,6 +2825,69 @@ Source: www.ti.com ... TPS40055 package.pdf &amp; slma002.pdf</description>
 <text x="-7.62" y="15.24" size="1.27" layer="94" font="vector" ratio="15">&gt;VALUE</text>
 <pin name="8" x="10.16" y="-10.16" visible="off" length="short" rot="R180"/>
 <text x="-7.112" y="9.398" size="1.27" layer="94" font="vector" ratio="15">PVIN</text>
+<<<<<<< HEAD
+=======
+</symbol>
+<symbol name="BQ28Z610">
+<pin name="P$1" x="-15.24" y="12.7" visible="pad" length="short"/>
+<pin name="P$2" x="-15.24" y="7.62" visible="pad" length="short"/>
+<pin name="P$3" x="-15.24" y="2.54" visible="pad" length="short"/>
+<pin name="P$4" x="-15.24" y="-2.54" visible="pad" length="short"/>
+<pin name="P$5" x="-15.24" y="-7.62" visible="pad" length="short"/>
+<pin name="P$6" x="-15.24" y="-12.7" visible="pad" length="short"/>
+<pin name="P$7" x="15.24" y="-12.7" visible="pad" length="short" rot="R180"/>
+<pin name="P$8" x="15.24" y="-7.62" visible="pad" length="short" rot="R180"/>
+<pin name="P$9" x="15.24" y="-2.54" visible="pad" length="short" rot="R180"/>
+<pin name="P$10" x="15.24" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="P$11" x="15.24" y="7.62" visible="pad" length="short" rot="R180"/>
+<pin name="P$12" x="15.24" y="12.7" visible="pad" length="short" rot="R180"/>
+<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<text x="-11.938" y="11.684" size="1.6764" layer="94" font="vector" ratio="15">GND</text>
+<text x="-11.938" y="6.604" size="1.6764" layer="94" font="vector" ratio="15">SRN</text>
+<text x="-11.938" y="1.524" size="1.6764" layer="94" font="vector" ratio="15">SRP</text>
+<text x="-11.938" y="-3.556" size="1.6764" layer="94" font="vector" ratio="15">TS1</text>
+<text x="-11.938" y="-8.636" size="1.6764" layer="94" font="vector" ratio="15">SCL</text>
+<text x="-11.938" y="-13.716" size="1.6764" layer="94" font="vector" ratio="15">SDA</text>
+<text x="11.938" y="-13.716" size="1.6764" layer="94" font="vector" ratio="15" rot="MR0">DSG</text>
+<text x="11.938" y="-8.636" size="1.6764" layer="94" font="vector" ratio="15" rot="MR0">PACK</text>
+<text x="11.938" y="-3.556" size="1.6764" layer="94" font="vector" ratio="15" rot="MR0">CHG</text>
+<text x="11.938" y="1.524" size="1.6764" layer="94" font="vector" ratio="15" rot="MR0">PBI</text>
+<text x="11.938" y="6.604" size="1.6764" layer="94" font="vector" ratio="15" rot="MR0">VC2</text>
+<text x="11.938" y="11.684" size="1.6764" layer="94" font="vector" ratio="15" rot="MR0">VC1</text>
+<pin name="P$13" x="0" y="-20.32" visible="pad" length="short" rot="R90"/>
+<text x="1.016" y="-17.018" size="1.6764" layer="94" font="vector" ratio="15" rot="R90">PWPD</text>
+<text x="-12.7" y="18.542" size="1.6764" layer="94" font="vector" ratio="15">&gt;NAME</text>
+<text x="-12.7" y="-18.542" size="1.6764" layer="94" font="vector" ratio="15" rot="MR180">&gt;VALUE</text>
+</symbol>
+<symbol name="TPS61235">
+<pin name="P$1" x="-15.24" y="5.08" visible="pad" length="short"/>
+<pin name="P$2" x="-15.24" y="0" visible="pad" length="short"/>
+<pin name="P$3" x="-15.24" y="-5.08" visible="pad" length="short"/>
+<pin name="P$4" x="-7.62" y="-15.24" visible="pad" length="short" rot="R90"/>
+<pin name="P$5" x="-2.54" y="-15.24" visible="pad" length="short" rot="R90"/>
+<pin name="P$6" x="2.54" y="-15.24" visible="pad" length="short" rot="R90"/>
+<pin name="P$7" x="7.62" y="-15.24" visible="pad" length="short" rot="R90"/>
+<pin name="P$8" x="15.24" y="-5.08" visible="pad" length="short" rot="R180"/>
+<pin name="P$9" x="15.24" y="5.08" visible="pad" length="short" rot="R180"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<text x="-12.192" y="4.318" size="1.4224" layer="94" font="vector" ratio="15">PGND</text>
+<text x="-12.192" y="-0.762" size="1.4224" layer="94" font="vector" ratio="15">SW</text>
+<text x="-12.192" y="-5.842" size="1.4224" layer="94" font="vector" ratio="15">VIN</text>
+<text x="12.192" y="-5.842" size="1.4224" layer="94" font="vector" ratio="15" rot="MR0">INACT</text>
+<text x="12.192" y="4.318" size="1.4224" layer="94" font="vector" ratio="15" rot="MR0">VOUT</text>
+<text x="-8.382" y="-12.192" size="1.4224" layer="94" font="vector" ratio="15" rot="MR90">CC</text>
+<text x="-3.302" y="-12.192" size="1.4224" layer="94" font="vector" ratio="15" rot="MR90">AGND</text>
+<text x="1.778" y="-12.192" size="1.4224" layer="94" font="vector" ratio="15" rot="MR90">FB</text>
+<text x="6.858" y="-12.192" size="1.4224" layer="94" font="vector" ratio="15" rot="MR90">EN</text>
+<text x="-12.7" y="10.668" size="1.4224" layer="94" font="vector" ratio="15">&gt;NAME</text>
+<text x="-12.7" y="12.7" size="1.4224" layer="94" font="vector" ratio="15">&gt;VALUE</text>
+>>>>>>> 3ae09cc304db548bbdf653cd577159e84577e8fb
 </symbol>
 </symbols>
 <devicesets>
@@ -4012,15 +4120,70 @@ Fixed 1-MHz Switching Frequency.&lt;p&gt;
 </device>
 </devices>
 </deviceset>
+<<<<<<< HEAD
 <deviceset name="TPS54622">
+=======
+<deviceset name="TPS54622" prefix="DC/DC" uservalue="yes">
+<description>&lt;b&gt;TPS54622 &lt;/b&gt;4.5-V to 17-V Input, 6-A Synchronous Step-Down SWIFT™ Converter With Hiccup Protection.&lt;p&gt;
+• 200-kHz to 1.6-MHz Switching Frequency.&lt;p&gt;
+• –40°C to 150°C Operating Junction Temperature Range.&lt;p&gt;
+• Adjustable Slow Start and Power Sequencing.&lt;p&gt;
+&lt;a href="http://www.ti.com/lit/ds/symlink/tps54622.pdf"&gt;Datasheet&lt;/a&gt;</description>
+>>>>>>> 3ae09cc304db548bbdf653cd577159e84577e8fb
 <gates>
 <gate name="G$1" symbol="TPS54622" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="VQFN-14_PWR">
 <connects>
+<<<<<<< HEAD
 <connect gate="G$1" pin="4" pad="1"/>
 <connect gate="G$1" pin="7" pad="2 3 EPAD_BIG EPAD_M1 EPAD_M2 EPAD_M3 EPAD_M4"/>
+=======
+<connect gate="G$1" pin="1" pad="4 5"/>
+<connect gate="G$1" pin="10" pad="11 12"/>
+<connect gate="G$1" pin="11" pad="13"/>
+<connect gate="G$1" pin="2" pad="10"/>
+<connect gate="G$1" pin="3" pad="14"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="9"/>
+<connect gate="G$1" pin="6" pad="8"/>
+<connect gate="G$1" pin="7" pad="2 3 EPAD_BIG EPAD_M1 EPAD_M2 EPAD_M3 EPAD_M4"/>
+<connect gate="G$1" pin="8" pad="6"/>
+<connect gate="G$1" pin="9" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BQ28Z610" prefix="GG">
+<description>&lt;b&gt;BQ28Z610 &lt;/b&gt; Impedance Track™ Gas Gauge and Protection Solution for 1-Series to 2-Series Cell Li-Ion Battery Packs.&lt;p&gt;
+• Cell Balancing with Internal Bypass To Optimize Battery Health.&lt;p&gt;
+• High-Side Protection N-CH FET Drive Allows Serial Bus Communication During Fault Conditions.&lt;p&gt;
+• Programmable Protection Levels for Voltage, Current, and Temperature.&lt;p&gt;
+&lt;a href="http://www.ti.com/lit/ds/symlink/bq28z610.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BQ28Z610" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VSON12">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$10" pad="10"/>
+<connect gate="G$1" pin="P$11" pad="11"/>
+<connect gate="G$1" pin="P$12" pad="12"/>
+<connect gate="G$1" pin="P$13" pad="EPAD_BIG EPAD_M1 EPAD_M2 EPAD_M3 EPAD_M4 EPAD_VIA"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
+<connect gate="G$1" pin="P$8" pad="8"/>
+<connect gate="G$1" pin="P$9" pad="9"/>
+>>>>>>> 3ae09cc304db548bbdf653cd577159e84577e8fb
 </connects>
 <technologies>
 <technology name=""/>
