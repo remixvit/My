@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
-<grid distance="0.74" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -169,13 +168,6 @@
 <hole x="-11.72" y="-10.45" drill="2"/>
 <hole x="11.58" y="-10.45" drill="2"/>
 <hole x="11.58" y="12.45" drill="2"/>
-<text x="-7.57" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">GND</text>
-<text x="-4.97" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">VCC</text>
-<text x="-2.57" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">D0</text>
-<text x="0.03" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">D1</text>
-<text x="2.63" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">RES</text>
-<text x="5.03" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">DC</text>
-<text x="7.63" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">CS</text>
 <wire x1="-13.97" y1="8.1" x2="-13.97" y2="-8.6" width="0.254" layer="21"/>
 <wire x1="-13.97" y1="-8.6" x2="-13.97" y2="-12.6" width="0.254" layer="21"/>
 <wire x1="-5.6" y1="-8.6" x2="5.6" y2="-8.6" width="0.254" layer="21"/>

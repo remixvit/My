@@ -543,18 +543,18 @@
 <text x="-4.445" y="23.495" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="4DIGIT_7SEG">
-<pin name="P$1" x="-3.81" y="12.7" visible="off" length="short" rot="R270"/>
-<pin name="P$2" x="1.27" y="12.7" visible="off" length="short" rot="R270"/>
-<pin name="P$3" x="6.35" y="12.7" visible="off" length="short" rot="R270"/>
-<pin name="P$4" x="11.43" y="12.7" visible="off" length="short" rot="R270"/>
-<pin name="P$5" x="-15.24" y="2.54" visible="off" length="short"/>
-<pin name="P$6" x="-15.24" y="0" visible="off" length="short"/>
-<pin name="P$7" x="-15.24" y="-2.54" visible="off" length="short"/>
-<pin name="P$8" x="-15.24" y="-5.08" visible="off" length="short"/>
-<pin name="P$9" x="-15.24" y="-7.62" visible="off" length="short"/>
-<pin name="P$10" x="-15.24" y="-10.16" visible="off" length="short"/>
-<pin name="P$11" x="-15.24" y="-12.7" visible="off" length="short"/>
-<pin name="P$12" x="-15.24" y="-15.24" visible="off" length="short"/>
+<pin name="12" x="-3.81" y="12.7" visible="off" length="short" rot="R270"/>
+<pin name="9" x="1.27" y="12.7" visible="off" length="short" rot="R270"/>
+<pin name="8" x="6.35" y="12.7" visible="off" length="short" rot="R270"/>
+<pin name="6" x="11.43" y="12.7" visible="off" length="short" rot="R270"/>
+<pin name="11" x="-15.24" y="2.54" visible="off" length="short"/>
+<pin name="7" x="-15.24" y="0" visible="off" length="short"/>
+<pin name="4" x="-15.24" y="-2.54" visible="off" length="short"/>
+<pin name="2" x="-15.24" y="-5.08" visible="off" length="short"/>
+<pin name="1" x="-15.24" y="-7.62" visible="off" length="short"/>
+<pin name="10" x="-15.24" y="-10.16" visible="off" length="short"/>
+<pin name="5" x="-15.24" y="-12.7" visible="off" length="short"/>
+<pin name="3" x="-15.24" y="-15.24" visible="off" length="short"/>
 <text x="5.08" y="0" size="1.4224" layer="94" font="vector" ratio="15">A</text>
 <wire x1="0" y1="-1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="11.43" y2="2.54" width="0.254" layer="94"/>
