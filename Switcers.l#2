@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -164,12 +164,12 @@ Source: www.irf.com .. ir2520.pdf</description>
 <wire x1="-1.27" y1="4.318" x2="-1.27" y2="4.826" width="0.127" layer="94"/>
 </symbol>
 <symbol name="ADP197">
-<pin name="1" x="-12.7" y="5.08" visible="off" length="short"/>
-<pin name="2" x="-12.7" y="0" visible="off" length="short"/>
-<pin name="3" x="-12.7" y="-5.08" visible="off" length="short"/>
-<pin name="4" x="12.7" y="-5.08" visible="off" length="short" rot="R180"/>
-<pin name="5" x="12.7" y="0" visible="off" length="short" rot="R180"/>
-<pin name="6" x="12.7" y="5.08" visible="off" length="short" rot="R180"/>
+<pin name="P$1" x="-12.7" y="5.08" visible="off" length="short"/>
+<pin name="P$2" x="-12.7" y="0" visible="off" length="short"/>
+<pin name="P$3" x="-12.7" y="-5.08" visible="off" length="short"/>
+<pin name="P$6" x="12.7" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="P$7" x="12.7" y="0" visible="off" length="short" rot="R180"/>
+<pin name="P$8" x="12.7" y="5.08" visible="off" length="short" rot="R180"/>
 <wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="10.16" y2="0" width="0.254" layer="94"/>
@@ -211,28 +211,6 @@ Source: www.irf.com .. ir2520.pdf</description>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ADP197" prefix="SW" uservalue="yes">
-<description>&lt;b&gt;ADP197 &lt;/b&gt;5 V, 3 A Logic Controlled High-Side Power Switch.&lt;p&gt;
-&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADP197.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ADP197" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LFCSP6">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3 EPAD"/>
-<connect gate="G$1" pin="4" pad="6"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

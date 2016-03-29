@@ -263,6 +263,13 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <rectangle x1="5.75" y1="0.75" x2="6.25" y2="1.25" layer="51"/>
 <text x="-6.62" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.27" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6" y1="1" x2="-6" y2="-6" width="0.55" layer="51"/>
+<wire x1="-4" y1="1" x2="-4" y2="-6" width="0.55" layer="51"/>
+<wire x1="-2" y1="1" x2="-2" y2="-6" width="0.55" layer="51"/>
+<wire x1="0" y1="1" x2="0" y2="-6" width="0.55" layer="51"/>
+<wire x1="2" y1="1" x2="2" y2="-6" width="0.55" layer="51"/>
+<wire x1="4" y1="1" x2="4" y2="-6" width="0.55" layer="51"/>
+<wire x1="6" y1="1" x2="6" y2="-6" width="0.55" layer="51"/>
 </package>
 </packages>
 <symbols>
