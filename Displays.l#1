@@ -6,8 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
-<grid distance="0.74" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -169,13 +168,6 @@
 <hole x="-11.72" y="-10.45" drill="2"/>
 <hole x="11.58" y="-10.45" drill="2"/>
 <hole x="11.58" y="12.45" drill="2"/>
-<text x="-7.57" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">GND</text>
-<text x="-4.97" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">VCC</text>
-<text x="-2.57" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">D0</text>
-<text x="0.03" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">D1</text>
-<text x="2.63" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">RES</text>
-<text x="5.03" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">DC</text>
-<text x="7.63" y="8.9" size="1.27" layer="21" font="vector" ratio="15" rot="R90">CS</text>
 <wire x1="-13.97" y1="8.1" x2="-13.97" y2="-8.6" width="0.254" layer="21"/>
 <wire x1="-13.97" y1="-8.6" x2="-13.97" y2="-12.6" width="0.254" layer="21"/>
 <wire x1="-5.6" y1="-8.6" x2="5.6" y2="-8.6" width="0.254" layer="21"/>
@@ -203,82 +195,82 @@
 <wire x1="5.77" y1="-8.7" x2="7.37" y2="-10.3" width="0.254" layer="21" curve="-90"/>
 </package>
 <package name="4.3TFT">
-<wire x1="3" y1="0" x2="117" y2="0" width="0.3" layer="21"/>
-<wire x1="120" y1="3" x2="120" y2="70" width="0.3" layer="21"/>
-<wire x1="117" y1="73" x2="3" y2="73" width="0.3" layer="21"/>
-<wire x1="0" y1="70" x2="0" y2="3" width="0.3" layer="21"/>
-<wire x1="0" y1="3" x2="3" y2="0" width="0.3" layer="21" curve="90"/>
-<wire x1="117" y1="0" x2="120" y2="3" width="0.3" layer="21" curve="90"/>
-<wire x1="120" y1="70" x2="117" y2="73" width="0.3" layer="21" curve="90"/>
-<wire x1="3" y1="73" x2="0" y2="70" width="0.3" layer="21" curve="90"/>
-<pad name="JP1_17" x="2" y="38" drill="1" diameter="1.85"/>
-<pad name="JP1_18" x="4.54" y="38" drill="1" diameter="1.85"/>
-<pad name="JP1_15" x="2" y="35.46" drill="1" diameter="1.85"/>
-<pad name="JP1_16" x="4.54" y="35.46" drill="1" diameter="1.85"/>
-<pad name="JP1_13" x="2" y="32.92" drill="1" diameter="1.85"/>
-<pad name="JP1_14" x="4.54" y="32.92" drill="1" diameter="1.85"/>
-<pad name="JP1_11" x="2" y="30.38" drill="1" diameter="1.85"/>
-<pad name="JP1_12" x="4.54" y="30.38" drill="1" diameter="1.85"/>
-<pad name="JP1_9" x="2" y="27.84" drill="1" diameter="1.85"/>
-<pad name="JP1_10" x="4.54" y="27.84" drill="1" diameter="1.85"/>
-<pad name="JP1_7" x="2" y="25.3" drill="1" diameter="1.85"/>
-<pad name="JP1_8" x="4.54" y="25.3" drill="1" diameter="1.85"/>
-<pad name="JP1_5" x="2" y="22.76" drill="1" diameter="1.85"/>
-<pad name="JP1_6" x="4.54" y="22.76" drill="1" diameter="1.85"/>
-<pad name="JP1_3" x="2" y="20.22" drill="1" diameter="1.85"/>
-<pad name="JP1_4" x="4.54" y="20.22" drill="1" diameter="1.85"/>
-<pad name="JP1_1" x="2" y="17.68" drill="1" diameter="1.85"/>
-<pad name="JP1_2" x="4.54" y="17.68" drill="1" diameter="1.85"/>
-<pad name="JP1_33" x="2" y="58.32" drill="1" diameter="1.85"/>
-<pad name="JP1_34" x="4.54" y="58.32" drill="1" diameter="1.85"/>
-<pad name="JP1_31" x="2" y="55.78" drill="1" diameter="1.85"/>
-<pad name="JP1_32" x="4.54" y="55.78" drill="1" diameter="1.85"/>
-<pad name="JP1_29" x="2" y="53.24" drill="1" diameter="1.85"/>
-<pad name="JP1_30" x="4.54" y="53.24" drill="1" diameter="1.85"/>
-<pad name="JP1_27" x="2" y="50.7" drill="1" diameter="1.85"/>
-<pad name="JP1_28" x="4.54" y="50.7" drill="1" diameter="1.85"/>
-<pad name="JP1_25" x="2" y="48.16" drill="1" diameter="1.85"/>
-<pad name="JP1_26" x="4.54" y="48.16" drill="1" diameter="1.85"/>
-<pad name="JP1_23" x="2" y="45.62" drill="1" diameter="1.85"/>
-<pad name="JP1_24" x="4.54" y="45.62" drill="1" diameter="1.85"/>
-<pad name="JP1_21" x="2" y="43.08" drill="1" diameter="1.85"/>
-<pad name="JP1_22" x="4.54" y="43.08" drill="1" diameter="1.85"/>
-<pad name="JP1_19" x="2" y="40.54" drill="1" diameter="1.85"/>
-<pad name="JP1_20" x="4.54" y="40.54" drill="1" diameter="1.85"/>
-<pad name="JP2_18" x="118" y="38" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_17" x="115.46" y="38" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_16" x="118" y="35.46" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_15" x="115.46" y="35.46" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_14" x="118" y="32.92" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_13" x="115.46" y="32.92" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_12" x="118" y="30.38" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_11" x="115.46" y="30.38" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_10" x="118" y="27.84" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_9" x="115.46" y="27.84" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_8" x="118" y="25.3" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_7" x="115.46" y="25.3" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_6" x="118" y="22.76" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_5" x="115.46" y="22.76" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_4" x="118" y="20.22" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_3" x="115.46" y="20.22" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_2" x="118" y="17.68" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_1" x="115.46" y="17.68" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_34" x="118" y="58.32" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_33" x="115.46" y="58.32" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_32" x="118" y="55.78" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_31" x="115.46" y="55.78" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_30" x="118" y="53.24" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_29" x="115.46" y="53.24" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_28" x="118" y="50.7" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_27" x="115.46" y="50.7" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_26" x="118" y="48.16" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_25" x="115.46" y="48.16" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_24" x="118" y="45.62" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_23" x="115.46" y="45.62" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_22" x="118" y="43.08" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_21" x="115.46" y="43.08" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_20" x="118" y="40.54" drill="1" diameter="1.85" rot="R180"/>
-<pad name="JP2_19" x="115.46" y="40.54" drill="1" diameter="1.85" rot="R180"/>
+<wire x1="-57" y1="-36.5" x2="57" y2="-36.5" width="0.3" layer="21"/>
+<wire x1="60" y1="-33.5" x2="60" y2="33.5" width="0.3" layer="21"/>
+<wire x1="57" y1="36.5" x2="-57" y2="36.5" width="0.3" layer="21"/>
+<wire x1="-60" y1="33.5" x2="-60" y2="-33.5" width="0.3" layer="21"/>
+<wire x1="-60" y1="-33.5" x2="-57" y2="-36.5" width="0.3" layer="21" curve="90"/>
+<wire x1="57" y1="-36.5" x2="60" y2="-33.5" width="0.3" layer="21" curve="90"/>
+<wire x1="60" y1="33.5" x2="57" y2="36.5" width="0.3" layer="21" curve="90"/>
+<wire x1="-57" y1="36.5" x2="-60" y2="33.5" width="0.3" layer="21" curve="90"/>
+<pad name="JP1_17" x="-58" y="1.5" drill="1" diameter="1.85"/>
+<pad name="JP1_18" x="-55.46" y="1.5" drill="1" diameter="1.85"/>
+<pad name="JP1_15" x="-58" y="-1.04" drill="1" diameter="1.85"/>
+<pad name="JP1_16" x="-55.46" y="-1.04" drill="1" diameter="1.85"/>
+<pad name="JP1_13" x="-58" y="-3.58" drill="1" diameter="1.85"/>
+<pad name="JP1_14" x="-55.46" y="-3.58" drill="1" diameter="1.85"/>
+<pad name="JP1_11" x="-58" y="-6.12" drill="1" diameter="1.85"/>
+<pad name="JP1_12" x="-55.46" y="-6.12" drill="1" diameter="1.85"/>
+<pad name="JP1_9" x="-58" y="-8.66" drill="1" diameter="1.85"/>
+<pad name="JP1_10" x="-55.46" y="-8.66" drill="1" diameter="1.85"/>
+<pad name="JP1_7" x="-58" y="-11.2" drill="1" diameter="1.85"/>
+<pad name="JP1_8" x="-55.46" y="-11.2" drill="1" diameter="1.85"/>
+<pad name="JP1_5" x="-58" y="-13.74" drill="1" diameter="1.85"/>
+<pad name="JP1_6" x="-55.46" y="-13.74" drill="1" diameter="1.85"/>
+<pad name="JP1_3" x="-58" y="-16.28" drill="1" diameter="1.85"/>
+<pad name="JP1_4" x="-55.46" y="-16.28" drill="1" diameter="1.85"/>
+<pad name="JP1_1" x="-58" y="-18.82" drill="1" diameter="1.85"/>
+<pad name="JP1_2" x="-55.46" y="-18.82" drill="1" diameter="1.85"/>
+<pad name="JP1_33" x="-58" y="21.82" drill="1" diameter="1.85"/>
+<pad name="JP1_34" x="-55.46" y="21.82" drill="1" diameter="1.85"/>
+<pad name="JP1_31" x="-58" y="19.28" drill="1" diameter="1.85"/>
+<pad name="JP1_32" x="-55.46" y="19.28" drill="1" diameter="1.85"/>
+<pad name="JP1_29" x="-58" y="16.74" drill="1" diameter="1.85"/>
+<pad name="JP1_30" x="-55.46" y="16.74" drill="1" diameter="1.85"/>
+<pad name="JP1_27" x="-58" y="14.2" drill="1" diameter="1.85"/>
+<pad name="JP1_28" x="-55.46" y="14.2" drill="1" diameter="1.85"/>
+<pad name="JP1_25" x="-58" y="11.66" drill="1" diameter="1.85"/>
+<pad name="JP1_26" x="-55.46" y="11.66" drill="1" diameter="1.85"/>
+<pad name="JP1_23" x="-58" y="9.12" drill="1" diameter="1.85"/>
+<pad name="JP1_24" x="-55.46" y="9.12" drill="1" diameter="1.85"/>
+<pad name="JP1_21" x="-58" y="6.58" drill="1" diameter="1.85"/>
+<pad name="JP1_22" x="-55.46" y="6.58" drill="1" diameter="1.85"/>
+<pad name="JP1_19" x="-58" y="4.04" drill="1" diameter="1.85"/>
+<pad name="JP1_20" x="-55.46" y="4.04" drill="1" diameter="1.85"/>
+<pad name="JP2_18" x="58" y="1.5" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_17" x="55.46" y="1.5" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_16" x="58" y="-1.04" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_15" x="55.46" y="-1.04" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_14" x="58" y="-3.58" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_13" x="55.46" y="-3.58" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_12" x="58" y="-6.12" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_11" x="55.46" y="-6.12" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_10" x="58" y="-8.66" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_9" x="55.46" y="-8.66" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_8" x="58" y="-11.2" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_7" x="55.46" y="-11.2" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_6" x="58" y="-13.74" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_5" x="55.46" y="-13.74" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_4" x="58" y="-16.28" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_3" x="55.46" y="-16.28" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_2" x="58" y="-18.82" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_1" x="55.46" y="-18.82" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_34" x="58" y="21.82" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_33" x="55.46" y="21.82" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_32" x="58" y="19.28" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_31" x="55.46" y="19.28" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_30" x="58" y="16.74" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_29" x="55.46" y="16.74" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_28" x="58" y="14.2" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_27" x="55.46" y="14.2" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_26" x="58" y="11.66" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_25" x="55.46" y="11.66" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_24" x="58" y="9.12" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_23" x="55.46" y="9.12" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_22" x="58" y="6.58" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_21" x="55.46" y="6.58" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_20" x="58" y="4.04" drill="1" diameter="1.85" rot="R180"/>
+<pad name="JP2_19" x="55.46" y="4.04" drill="1" diameter="1.85" rot="R180"/>
 <text x="2" y="60" size="2.54" layer="25" font="vector" ratio="15">JP1</text>
 <text x="112" y="60" size="2.54" layer="25" font="vector" ratio="15">JP2</text>
 <text x="54" y="69" size="2.54" layer="25" font="vector" ratio="15">4.3TFT</text>
@@ -312,10 +304,10 @@
 <vertex x="3" y="67" curve="-90"/>
 <vertex x="0" y="70" curve="-90"/>
 </polygon>
-<hole x="3" y="70" drill="3"/>
-<hole x="3" y="3" drill="3"/>
-<hole x="117" y="3" drill="3"/>
-<hole x="117" y="70" drill="3"/>
+<hole x="-57" y="33.5" drill="3"/>
+<hole x="-57" y="-33.5" drill="3"/>
+<hole x="57" y="-33.5" drill="3"/>
+<hole x="57" y="33.5" drill="3"/>
 <polygon width="0.3" layer="29">
 <vertex x="3" y="6" curve="-90"/>
 <vertex x="6" y="3" curve="-90"/>
@@ -364,6 +356,10 @@
 <vertex x="3" y="0" curve="-90"/>
 <vertex x="0" y="3" curve="-90"/>
 </polygon>
+<wire x1="-53" y1="-34" x2="53" y2="-34" width="0.4064" layer="21"/>
+<wire x1="-53" y1="34" x2="53" y2="34" width="0.4064" layer="21"/>
+<wire x1="53" y1="34" x2="53" y2="-34" width="0.4064" layer="21"/>
+<wire x1="-53" y1="34" x2="-53" y2="-34" width="0.4064" layer="21"/>
 </package>
 <package name="4DIG_7SEG_5.3X19">
 <wire x1="-25.15" y1="9.5" x2="25.15" y2="9.5" width="0.127" layer="21"/>
