@@ -279,7 +279,8 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603">
+<deviceset name="CAP0603" prefix="C" uservalue="yes">
+<description>Ceramic Capasitor SMD 0603</description>
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
@@ -295,7 +296,8 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="RES0603">
+<deviceset name="RES0603" prefix="R" uservalue="yes">
+<description>Resistor SMD 0603</description>
 <gates>
 <gate name="G$1" symbol="RES" x="0" y="0"/>
 </gates>
@@ -311,7 +313,8 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="L0603">
+<deviceset name="L0603" prefix="L" uservalue="yes">
+<description>Inductor SMD 0603</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
