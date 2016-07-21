@@ -279,7 +279,8 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603">
+<deviceset name="CAP0603" prefix="C" uservalue="yes">
+<description>Ceramic Capasitor SMD 0603</description>
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
