@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -70,6 +70,7 @@
 <layer number="100" name="GHOST" color="11" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
+<description>7MM HEIGHT</description>
 <packages>
 <package name="30PIN">
 <wire x1="-11" y1="0" x2="11" y2="0" width="0.127" layer="21"/>
@@ -821,6 +822,26 @@
 <rectangle x1="23.749" y1="-5.461" x2="24.511" y2="-4.699" layer="21"/>
 <rectangle x1="23.749" y1="-4.699" x2="24.511" y2="-2.921" layer="51"/>
 </package>
+<package name="4DIG_7SEG_40.4X16_H7">
+<pad name="P$1" x="-6.35" y="-6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$2" x="-3.81" y="-6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$3" x="-1.27" y="-6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$4" x="1.27" y="-6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$5" x="3.81" y="-6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$6" x="6.35" y="-6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$7" x="6.35" y="6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$8" x="3.81" y="6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$9" x="1.27" y="6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$10" x="-1.27" y="6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$11" x="-3.81" y="6.35" drill="0.7" diameter="1.4224"/>
+<pad name="P$12" x="-6.35" y="6.35" drill="0.7" diameter="1.4224"/>
+<wire x1="-20.2" y1="8" x2="20.2" y2="8" width="0.127" layer="21"/>
+<wire x1="-20.2" y1="-8" x2="20.2" y2="-8" width="0.127" layer="21"/>
+<wire x1="-20.2" y1="8" x2="-20.2" y2="-8" width="0.127" layer="21"/>
+<wire x1="20.2" y1="-8" x2="20.2" y2="8" width="0.127" layer="21"/>
+<text x="-3" y="2" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-3" y="-4" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SSD1306">
@@ -1228,7 +1249,7 @@
 <pin name="39" x="-2.54" y="-25.4" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="40" x="5.08" y="-25.4" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
-<symbol name="4DIG_7SEG_40.4X16">
+<symbol name="4DIG_7SEG_OK">
 <wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="5.08" y1="0" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="6.35" y1="-1.27" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
