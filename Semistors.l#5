@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
+<<<<<<< HEAD
 <eagle version="7.1.0">
+=======
+<eagle version="7.4.0">
+>>>>>>> 2683433a673364a6efabf260339ffc3f25f7e60e
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
+<<<<<<< HEAD
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+=======
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+>>>>>>> 2683433a673364a6efabf260339ffc3f25f7e60e
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -199,6 +207,26 @@ Source MOTOROLA / ON Semiconductor mjd32-d.pdf</description>
 <connects>
 <connect gate="G$1" pin="A1" pad="A1"/>
 <connect gate="G$1" pin="A2" pad="A2 A2-PAD"/>
+<connect gate="G$1" pin="G" pad="G"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACST4" prefix="TRIAC">
+<description>&lt;b&gt;ACST4&lt;/b&gt; Triac with overvoltage protection.&lt;p&gt;
+4A 800V.&lt;p&gt;
+&lt;a href="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00002945.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SEMISTOR" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="DPAK">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
 <connect gate="G$1" pin="G" pad="G"/>
 </connects>
 <technologies>

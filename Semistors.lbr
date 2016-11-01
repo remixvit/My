@@ -72,9 +72,15 @@
 <packages>
 <package name="TO220">
 <description>&lt;b&gt;TO 220 horizontal&lt;/b&gt;</description>
+<<<<<<< HEAD
 <pad name="MT1" x="-2.54" y="0" drill="1.1176" shape="long" rot="R90"/>
 <pad name="MT2" x="0" y="0" drill="1.1176" shape="long" rot="R90"/>
 <pad name="GATE" x="2.54" y="0" drill="1.1176" shape="long" rot="R90"/>
+=======
+<pad name="IN1" x="-2.54" y="0" drill="1.1176" shape="long" rot="R90"/>
+<pad name="IN2" x="0" y="0" drill="1.1176" shape="long" rot="R90"/>
+<pad name="CONTROL" x="2.54" y="0" drill="1.1176" shape="long" rot="R90"/>
+>>>>>>> 2683433a673364a6efabf260339ffc3f25f7e60e
 <wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="21"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-3.81" x2="-5.08" y2="-3.81" width="0.127" layer="21"/>

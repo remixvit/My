@@ -158,9 +158,17 @@ Source MOTOROLA / ON Semiconductor mjd32-d.pdf</description>
 <wire x1="-2.54" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<<<<<<< HEAD
 <pin name="MT2" x="-2.54" y="7.62" visible="off" length="short" rot="R270"/>
 <pin name="MT1" x="-2.54" y="-7.62" visible="off" length="short" rot="R90"/>
 <pin name="G" x="-10.16" y="-7.62" visible="off" length="short"/>
+=======
+<pin name="A2" x="-2.54" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="A1" x="-2.54" y="-7.62" visible="off" length="short" rot="R90"/>
+<pin name="G" x="-10.16" y="-7.62" visible="off" length="short"/>
+<text x="0" y="7.62" size="1.778" layer="94" font="vector" ratio="15">MT2</text>
+<text x="2.54" y="-5.08" size="1.778" layer="94" font="vector" ratio="15">MT1</text>
+>>>>>>> 2683433a673364a6efabf260339ffc3f25f7e60e
 <text x="-7.62" y="-5.08" size="1.778" layer="94" font="vector" ratio="15">G</text>
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-5.08" x2="-2.54" y2="0" width="0.254" layer="94"/>
